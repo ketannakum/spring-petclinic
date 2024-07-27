@@ -8,5 +8,6 @@ LABEL maintainer="ketantnakum.com"
 #the Jar will be placed in a target directory. We simply need to copy that into the image.
 COPY /target/spring-petclinic-1.5.1.jar /home/spring-petclinic-1.5.1.jar
 
+
 #Run Spring PetClinic when the container starts up.
 CMD ["java","-jar","/home/spring-petclinic-1.5.1.jar"]
