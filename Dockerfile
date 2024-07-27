@@ -1,6 +1,6 @@
 # We want to start with a Java image, so specify Anapsix’s Alpine Java image as our base image. 
 #FROM anapsix/alpine-java
-FROM openjdk:11
+FROM openjdk:17-alpine
 
 #Specify who the maintainer of this image should be using a maintainer label.
 LABEL maintainer="ketantnakum.com"
