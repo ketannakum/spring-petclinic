@@ -400,7 +400,7 @@
                         <artifactId>maven-checkstyle-plugin</artifactId>
                         <versionRange>[1,)</versionRange>
                         <goals>
-                          <goal>check</goal>
+                          <goal>none</goal>
                         </goals>
                       </pluginExecutionFilter>
                       <action>
